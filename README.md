@@ -4,7 +4,7 @@ pip install -r requirements.txt
 
 # Parse with Pandas: 
 
-python parse.py
+## python parse.py
 
 ### Why Pandas?
 
@@ -26,4 +26,27 @@ python parse.py
 
 # Parse with basic python library: 
 
-python basic_parser.py
+
+## python basic_parser.py
+
+### why CSV?
+
+**Simplicity**: Python's csv module provides a straightforward and easy-to-use interface for reading and writing CSV files.
+
+**Built-in Module**: The csv module is part of the Python standard library, so you don't need to install any external dependencies to use it.
+
+**Flexibility**: The module offers various options for customizing the CSV parsing process, including choosing the delimiter, handling quotes and escape characters, and working with different file encodings.
+
+**Efficiency**: Python's csv module is optimized for performance, making it efficient for processing large CSV files or handling large amounts of data.
+
+**Compatibility**: The csv module integrates well with other Python libraries and frameworks, such as Pandas, NumPy, and Django, allowing for seamless data integration and manipulation.
+
+**Row-by-Row Processing**: The csv module enables reading CSV files row by row, which is beneficial for handling large datasets without loading the entire file into memory at once.
+
+**Column Access**: The module provides options to access CSV data by column names or indices, making it convenient to work with specific columns or perform column-wise operations.
+
+**Data Transformation**: Python's csv module allows for data filtering, transformation, and aggregation, enabling you to preprocess and manipulate CSV data according to your requirements.
+
+**Cross-platform Compatibility**: The csv module works consistently across different operating systems, making it suitable for developing cross-platform data parsing applications.
+
+**Community Support**: Python has a vast and active community, so you can find extensive documentation, tutorials, and community support for using the csv module effectively.
